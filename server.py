@@ -7,7 +7,7 @@ import io
 app = Flask(__name__)
 
 # Tải mô hình Keras từ file .keras
-model = load_model(r'F:\Python\bird_classifier_mobilenetv2_final.keras')  # Thay bằng đường dẫn file .keras của bạn
+model = load_model('bird_classifier_mobilenetv2_final.keras')  # Thay bằng đường dẫn file .keras của bạn
 
 # Danh sách các loài chim (phải khớp với thứ tự lớp khi bạn train mô hình)
 bird_classes = [
