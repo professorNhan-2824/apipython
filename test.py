@@ -67,3 +67,5 @@ image_path = r"F:\Python\Project_python\nhan\7.png"
 class_id, bird_name, confidence = predict_image(image_path)
 print(f"Loài chim dự đoán: {bird_name} (ID: {class_id})")
 print(f"Độ tin cậy: {confidence:.2f}")
+
+# https://apipython-3ho5.onrender.com
